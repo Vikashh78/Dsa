@@ -1,0 +1,16 @@
+{
+    "files.exclude":{
+        "**/*.exe": true
+    },
+    "search.exclude":{
+        "**/*.exe": true
+    },
+    "files.associations": {
+        "iostream": "cpp",
+        "deque": "cpp",
+        "string": "cpp",
+        "vector": "cpp",
+        "unordered_map": "cpp",
+        "*.tcc": "cpp"
+    }
+}
