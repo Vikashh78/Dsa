@@ -4,7 +4,7 @@ using namespace std;
 void rotateArray(int arr[], int size, int k){
     int temp[size];
     for(int i=0; i<size; i++){
-        temp[(i+k) % size] = arr[i];
+        temp[(i+k) % size] = arr[i]; //only works for [k <= n]
     }
 
 // There is no use of nested loop here
