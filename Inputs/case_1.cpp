@@ -3,6 +3,8 @@
 #include <bits/stdc++.h>
 #include <iostream>
 #include <vector>
+#include <sstream>
+#include <string>
 using namespace std;
 
 int main() {
@@ -18,5 +20,26 @@ int main() {
         cout<<num<<" ";
     }
 
+    
+
+    // for string
+
+    // 3
+    // apple
+    // banana
+    // mango
+
+
+    int x;
+    cin >> x;
+    cin.ignore();
+
+    vector<string> input(x);
+
+    for(int i = 0; i < x; i++) {
+        getline(cin, input[i]);
+    }
+
     return 0;
+
 }
